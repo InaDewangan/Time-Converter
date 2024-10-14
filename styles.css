@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/033/502/006/large_2x/vintage-pocket-watch-on-magic-background-time-concept-ai-generated-free-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    background: rgba(154, 208, 224, 0.555); 
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(26, 166, 221, 0.651);
+    width: 600px;
+    padding: 10px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.info {
+    text-align: center;
+}
+
+.converted {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.converted p .first-ans, .converted p .second-ans {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    color: rgb(26, 25, 25);
+}
+
+#container input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    align-self: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
